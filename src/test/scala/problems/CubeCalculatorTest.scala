@@ -1,3 +1,5 @@
+package problems
+
 import org.scalatest.funsuite.AnyFunSuite
 
 class CubeCalculatorTest extends AnyFunSuite {

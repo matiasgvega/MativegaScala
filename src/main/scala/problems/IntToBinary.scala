@@ -1,3 +1,5 @@
+package problems
+
 import scala.annotation.tailrec
 
 /**
@@ -20,4 +22,3 @@ object IntToBinary {
         recConvert(i/2, s"$r$s")
     }
 }
-
