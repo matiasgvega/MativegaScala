@@ -5,7 +5,9 @@ lazy val root = (project in file(".")).
             scalaVersion := "2.13.10"
         )),
         name := "MativegaScala",
-        version := "0.1"
+        version := "0.1",
+        Test / parallelExecution := false,
+        Test / testOptions += Tests.Argument("-oD")
 
     )
 
