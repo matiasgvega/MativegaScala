@@ -3,6 +3,8 @@ package data_structures
 import org.scalatest.BeforeAndAfter
 import org.scalatest.funsuite.AnyFunSuite
 
+import models.Dummy
+
 class HeapTest extends AnyFunSuite with BeforeAndAfter {
 
   val list: List[Int] = List(6,4,7,8,9,5,3,1)

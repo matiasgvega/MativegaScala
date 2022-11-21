@@ -2,6 +2,8 @@ package data_structures
 
 import scala.collection.mutable
 
+import models.Dummy
+
 /**
  *
  * Heap can be represented as a tree, but stored in Array for performance.
@@ -76,4 +78,4 @@ object Heap {
   }
 
 }
-case class Dummy(n: Int, d: Dummy)
+
